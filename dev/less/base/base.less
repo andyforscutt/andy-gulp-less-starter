@@ -1,0 +1,43 @@
+/*! --- Manual Styles --- */
+@font-face {
+  font-family: Raleway;
+  src: url(../fonts/Raleway-Regular.ttf);
+}
+
+body {
+  color: @black;
+  font-family: "Raleway";
+  line-height: @line-height-base;
+  font-size: @font-size-base;
+  font-weight: @font-weight-base;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+ul {
+  height: 100%;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: @white;
+  text-decoration: none;
+
+  &:hover,
+  &:focus {
+    color: @blue;
+  }
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}

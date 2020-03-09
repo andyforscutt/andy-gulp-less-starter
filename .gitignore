@@ -1,0 +1,11 @@
+# Add any directories, files, or patterns you don't want to be tracked by version control
+node_modules
+.DS_Store
+*.zip
+dwsync.xml
+_notes
+cache/
+
+#optimised code excluded as included in dev folder
+/dist/css/
+/dist/scripts/

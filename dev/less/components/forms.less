@@ -1,0 +1,27 @@
+input {
+  border-radius: 0;
+  line-height: @line-height-base;
+  -webkit-appearance: none;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  border: 1px solid @black;
+  padding: 12px 26px;
+
+  &::-webkit-input-placeholder {
+    color: @black;
+  }
+}
+
+label {
+  border: 0;
+  clip: rect(0, 0, 0, 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
